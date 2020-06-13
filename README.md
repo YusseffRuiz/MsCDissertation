@@ -66,3 +66,16 @@ roslaunch neo_simulation mpo_700_amcl.launch
 6. Launch RVIZ 
 roslaunch neo_simulation mpo_700_rviz.launch
 # MsCDissertation
+
+This code is intended to be launched in the robot and it has been cleanup for presentation.
+There are some python scripts that were taken as baseline with little to no modification.
+DQN and ARS algorithms were not created by me, only modified.
+
+src/neo_simulation_scripts/ all were done by me except spawn_obstables
+scripts done my me on src/neo_simulation/Machine Learning
+and src/rp_lidar/CameraFiles
+
+Risk analysis done on the CameraFiles folder
+On the Risk Calculation >>> Prospect Theory and Dempster Shafer
+
+Using MobileNet Network for object recognition.
